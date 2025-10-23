@@ -6,7 +6,7 @@ const gifContainer = document.getElementById('gif-container');
 const loadMoreButton = document.getElementById('load-more-button');
 
 // Substitua pela sua chave da API do Giphy
-const apiKey = 'VtHH6Wc7ZVmKZtXQQPtCFzvBysfZ1nHC'; 
+const apiKey = 'NbpqQhVrxgi4sCm6Zc8Y0NzlO64CBQmM'; 
 
 const limit = 10; // Número de GIFs por página
 let offset = 0; // Offset para paginação
@@ -76,3 +76,4 @@ function loadGifs() {
     });
 
 }
+
