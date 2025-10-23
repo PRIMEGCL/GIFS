@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  color: #ff0066; /* Rosa vibrante */
+  margin: 20px;
+}
+
+#search-container {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #0099ff; /* Azul vibrante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #007acc;
+}
+
+#category-container,
+#filter-container {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif-item {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gif-item img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+#load-more-button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Verde */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#load-more-button:hover {
+  background-color: #27ae60;
+}

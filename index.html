@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de GIFs Animados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Buscador de GIFs Animados</h1>
+
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Buscar GIFs...">
+    <button id="search-button">Buscar</button>
+  </div>
+
+  <div id="category-container">
+    <label for="category-select">Categoria:</label>
+    <select id="category-select">
+      <option value="">Todas</option>
+      <option value="reactions">Reações</option>
+      <option value="entertainment">Entretenimento</option>
+      <option value="sports">Esportes</option>
+      <option value="stickers">Stickers</option>
+    </select>
+  </div>
+
+  <div id="filter-container">
+    <label for="rating-select">Classificação:</label>
+    <select id="rating-select">
+      <option value="">Todas</option>
+      <option value="g">G</option>
+      <option value="pg">PG</option>
+      <option value="pg-13">PG-13</option>
+      <option value="r">R</option>
+    </select>
+  </div>
+
+  <div id="gif-container"></div>
+
+  <button id="load-more-button">Carregar Mais</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
